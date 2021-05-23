@@ -1,0 +1,8 @@
+git config --global user.name An
+git config --global user.email an.trannhat@gmail.com
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/apentp2210/Python.git
+git push -u origin master
+
