@@ -1,5 +1,7 @@
 git config --global user.name An
 git config --global user.email an.trannhat@gmail.com
+git config --list
+git config user.name
 git init
 git add .
 git commit -m "first commit"
@@ -11,4 +13,6 @@ git log --oneline
 git rm
 git mv
 git checkout -b new_branch
+git cat-file -p <file-name>
+git reset --soft/mixed/hard
 
