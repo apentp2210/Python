@@ -16,4 +16,4 @@ git checkout -b new_branch
 git cat-file -p <file-name>
 git reset --soft/mixed/hard
 git clone https://github.com/apentp2210/Python.git
-
+git show-ref master
